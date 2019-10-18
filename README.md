@@ -30,13 +30,26 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Describe the biggest difference between `.forEach` & `.map`.
 
+map() stores return calues where as foreach() disregards return values and will return undefined. Foreach() will mutate an array in a callback function where as 
+map() will return a new array.
+
 2. What is the difference between a function and a method?
+
+I think in short methonds have recievers to which functions do not for example myobject.somemethod() in this case myobject would be the reciver, and somemethod is the method. functions use myfunction(arg) functions are invoked with out a reciever and use the parents syntax ().
+
 
 3. What is closure?
 
+A closure is basically a function bundled / enclosed with a refference to its surrounding state(lexical). A closure simply allows us to access the outer fucntions scope.
+
 4. Describe the four rules of the 'this' keyword.
 
+ Put simply 1 global/ window binding/ 2 implicit binding, 3 new binding, 4 explicit binding.
+
+
 5. Why do we need super() in an extended class?
+
+This is basically needed for inheritance and to bind our class together. its also used to make the parent constructor concerned with the childs attributes and vice versa.
 
 ## Project Set up
 
